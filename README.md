@@ -32,7 +32,7 @@ This application is developed using `State Design Pattern`.
 1. Do the git clone of the project.
 
 ```
-git clone https://git.easternenterprise.com/php/picasse-traffic-signal.git
+git clone https://github.com/arasidvc/traffic-signal.git
 ```
 2. Navigate inside the project directory.
 
