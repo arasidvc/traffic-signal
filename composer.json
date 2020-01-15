@@ -1,0 +1,28 @@
+{
+    "name": "vinayakarasid/traffic-signal",
+    "description": "Traffic signal system",
+    "authors": [
+        {
+            "name": "Vinayak Arasid",
+            "email": "v.arasid@easternenterprise.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "mockery/mockery": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "./helpers/TrafficSignalHelper.php"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php" colors="true" beStrictAboutTestsThatDoNotTestAnything="false">
+    <testsuites>
+        <testsuite name="Traffic Signal Test Suite">
+            <directory>tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>src/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="log/unit-test/codeCoverage" lowUpperBound="95" highLowerBound="99"/>
+        <log type="testdox-html" target="log/unit-test/test-report.html" />
+    </logging>
+</phpunit>
